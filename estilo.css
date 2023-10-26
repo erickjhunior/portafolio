@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/estacion-trabajo-3d-computadora-dispositivos-perifericos.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -83,7 +83,7 @@ html{
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
-    font-size: 42px;
+    font-size: 20px;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
@@ -208,6 +208,9 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+.sobremi a{
+    text-decoration: none;
+}
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -275,7 +278,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .htmlcss{
@@ -293,25 +296,25 @@ html{
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 75%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .mante{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s mante forwards;
 }
-@keyframes wordpress {
+@keyframes mante {
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .redes{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s redes forwards;
 }
-@keyframes drupal {
+@keyframes redes {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .comunicacion{
@@ -350,11 +353,11 @@ html{
     100%{width: 65%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .lider{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s lider forwards;
 }
-@keyframes proyect {
+@keyframes lider {
     0%{width: 0%;}
     100%{width: 94%;}
 }
@@ -495,6 +498,11 @@ html{
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
+}
+.portfolio .galeria .img{
+    width: 400px;
+	height:200px;
+	object-fit: cover;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
